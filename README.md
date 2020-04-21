@@ -6,7 +6,7 @@ Simple component that un-mounts a component after a given delay.
 #### Install using npm
 ```bash
 # install it via npm
-npm install --save ssh://git@github.com:rejuvenationinc/flash-message.git
+npm install --save ssh://git@github.com:smondal/flash-message.git
 ```
 * This package is not on NPM, use GitHub source only.
 

@@ -15,14 +15,14 @@ There are two version of javascript are available for browser(flash-message.min.
 
 ```html
 <!-- Insert the vue core before vue-toasted -->
-<script src="https://github.com/rejuvenationinc/flash-message/blob/master/dist/flash-message.js"></script>
+<script src="https://github.com/smondal/flash-message/blob/master/dist/flash-message.js"></script>
 
 <flash-message id="flash-message"></flash-message>
 <script>
     Vue.use(FlashMessage)
 </script>
 ```
-Checkout <a target="_blank" href="https://github.com/rejuvenationinc/flash-message/tree/master/example"> the example
+Checkout <a target="_blank" href="https://github.com/smondal/flash-message/tree/master/example"> the example
 
 <hr>
 

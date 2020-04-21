@@ -1,0 +1,46 @@
+{
+  "name": "flash-message",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/flash-message.js",
+  "scripts": {
+    "dev": "webpack --config ./build/webpack.dev.js",
+    "prod": "webpack --config ./build/webpack.prod.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rejuvenationinc/flash-message.git"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.2.1"
+  }
+}
